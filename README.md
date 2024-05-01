@@ -1,3 +1,7 @@
+<img width="909" alt="Screenshot 2024-05-01 at 4 00 19 PM" src="https://github.com/Sh0078/PhishingScanner/assets/118327722/f09011a0-20a4-43f6-992c-c384189f1dac">
+
+<img width="897" alt="Screenshot 2024-05-01 at 4 07 17 PM" src="https://github.com/Sh0078/PhishingScanner/assets/118327722/16fb1c51-1393-4fe9-a909-f2f0bcae8cdc">
+
 # Phishing Email Scanner
 
 This project is a Python-based email scanner designed to detect phishing emails in an IMAP mailbox. It checks for common phishing indicators, including suspicious subjects, malicious URLs, suspicious patterns, and excessive grammar errors. The scanner also validates email addresses to help identify potentially malicious senders.
@@ -35,7 +39,7 @@ python3 phishing_scanner.py --server <IMAP server> --username <email> --password
 ```
 
 
-Replace <IMAP server>, <email>, and <password> with your IMAP server address, email username, and password, not your email password but the application password, you get this password after you enable your 2fac in security feature, and create new app password. You can also specify the mailbox to scan using the --mailbox option (default is inbox).
+Replace IMAP server, username, and password with your IMAP server address, email username, and password, not your email password but the application password, you can get this password after you enable your 2fac in security feature, and create new app password. You can also specify the mailbox to scan using the --mailbox option (default is inbox).
 
 
 ### Features
@@ -69,6 +73,3 @@ Contributions are welcome! If you would like to contribute, please follow these 
 ### License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
-
-```
-This README template includes installation steps, usage instructions, feature descriptions, and other relevant information. You can customize it further to suit your specific project requirements, such as adding more details about error handling, troubleshooting tips, or additional features.
